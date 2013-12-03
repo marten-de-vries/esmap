@@ -1,0 +1,29 @@
+{
+  "name": "esmap",
+  "version": "1.0.0",
+  "description": "map over esprima nodes conveniently",
+  "main": "index.js",
+  "dependencies": {
+    "objmap": "~1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathan7/esmap.git"
+  },
+  "keywords": [
+    "esprima",
+    "ast",
+    "map",
+    "functional"
+  ],
+  "author": "Nathan Zadoks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathan7/esmap/issues"
+  },
+  "homepage": "https://github.com/nathan7/esmap"
+}
