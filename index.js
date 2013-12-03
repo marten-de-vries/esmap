@@ -9,7 +9,7 @@ module.exports = function(node, fn) {
         return fn(node[key], key, node)
       })
   for (var key in node)
-    if (__hop.call(node, key) && !__hop.call(newNode))
+    if (__hop.call(node, key) && !__hop.call(newNode, key))
       newNode[key] = node[key]
   return newNode
 }
