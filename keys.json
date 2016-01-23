@@ -43,6 +43,20 @@
     "test"
   ],
   "EmptyStatement": [],
+  "ExportNamedDeclaration": [
+    "declaration",
+    "specifiers",
+    "source"
+  ],
+  "ExportAllDeclaration": [
+    "source"
+  ],
+  "ExportDefaultDeclaration": [
+    "declaration"
+  ],
+  "ExportSpecifier": [
+    "exported"
+  ],
   "ExpressionStatement": [
     "expression"
   ],
@@ -73,6 +87,15 @@
     "consequent",
     "alternate"
   ],
+  "ImportDeclaration": [
+    "specifiers",
+    "source"
+  ],
+  "ImportSpecifier": [
+    "imported"
+  ],
+  "ImportDefaultSpecifier": [],
+  "ImportNamespaceSpecifier": [],
   "Literal": [],
   "LabeledStatement": [
     "label",
