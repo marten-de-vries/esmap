@@ -10,6 +10,9 @@
     "params",
     "body"
   ],
+  "AwaitExpression": [
+    "argument"
+  ],
   "BlockStatement": [
     "body"
   ],
